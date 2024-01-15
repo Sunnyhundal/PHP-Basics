@@ -1,4 +1,3 @@
-<!-- Basic PHP syntax and functions -->
 
 <?php
 echo "Hello World!";
@@ -31,3 +30,24 @@ $my_bool = true;
 // Booleans are either true or false.
 
 //php doesn't require you to declare variables type before assigning them values.
+
+// Concatenation
+<?php
+$my_name = "Sunny";
+$my_age = 100;
+echo "My name is " . $my_name . " and I am yonger than" . $my_age . " years old.";
+?>
+
+// Concatenation is the process of joining strings together.
+// In php, concatenation is performed with the . operator.
+
+// Arrays
+<?php
+$my_array = array("do", "re", "mi");
+echo $my_array[0];
+$my_array[1] = "la";
+echo $my_array[1];
+array_push($my_array, "fa");
+echo count($my_array);
+?>
+
